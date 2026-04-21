@@ -27,15 +27,39 @@ body{
 }
 
 .seção_introdução {
+    display: inline-block;
+    vertical-align: top;
     width: 300px;           /* Largura */
-    height: 300px;          /* Altura igual à largura para ser um quadrado */
-    background-color: #febd19; /* Cor de fundo (cinza claro) */
-    border: 20px solid #000000;  /* Borda preta opcional */
+    height: 315px;          /* Altura */
+    background-color: #febd19; /* Cor de fundo */
+    border: 10px solid #000000;  /* Borda preta */
+    outline: 7px solid rgb(255, 255, 255); /* Borda por fora */
     padding: 20px;          /* Espaço interno para o texto não encostar na borda */
-    margin-left: 300px;
-    margin-top: -50px;
+    margin-left: 150px;
+    margin-top: 0px;
     border-radius: 30px;
     
     /* Para garantir que o texto não saia do quadrado se for muito grande */
     overflow: auto; 
+}
+
+.seção_quem_somos {
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    height: 315px;
+    background-color: #febd19;
+    border: 10px solid #000000;  /* Borda preta */
+    outline: 7px solid rgb(255, 255, 255); /* Borda por fora */
+    padding: 20px;
+
+    margin-left: 50px;
+    margin-top: 0px;
+    border-radius: 30px;
+
+    overflow: auto; 
+}
+
+h2 {
+    text-align: center;
 }
